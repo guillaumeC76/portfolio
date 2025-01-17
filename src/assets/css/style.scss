@@ -1,0 +1,149 @@
+html {
+  background-color: #fdf8f3;
+  body {
+    color: #322c2c;
+    font-family: "Poppins", sans-serif;
+
+    padding: 5%;
+    .home {
+      .top_block {
+        background-image: url("@/assets/img/Pictos/fleur.svg"),
+          url("@/assets/img/Pictos/fleur.svg");
+        background-size: 30%;
+        background-position: 40% -5%, 0 60%;
+        background-repeat: no-repeat;
+
+        header {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 0 0 0 5%;
+
+          .anchor_link {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 80px;
+
+            a {
+              color: #322c2c;
+              font-weight: 400;
+              font-size: 20px;
+            }
+          }
+
+          .social_link {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 20px;
+
+            a {
+              width: 30px;
+
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        .presentation {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: stretch;
+          margin-top: 15vh;
+
+          .photo {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+
+            .carre_vert {
+              background-color: #dddbce;
+              height: 750px;
+              width: 80%;
+            }
+          }
+
+          .text_presentation {
+            width: 50%;
+
+            .filter_presentation {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 50px;
+
+              p {
+                border: 0.5px dashed #322c2c;
+                border-radius: 25px;
+                padding: 10px 20px;
+                font-weight: 400;
+                font-size: 18px;
+              }
+            }
+
+            h2 {
+              font-weight: 800;
+              font-size: 40px;
+              margin-top: 40px;
+            }
+
+            h1 {
+              font-weight: 800;
+              font-size: 150px;
+              margin-top: 10px;
+            }
+
+            h3 {
+              font-family: "Autography", sans-serif;
+              font-weight: 400;
+              font-size: 30px;
+              text-align: right;
+            }
+
+            p {
+              font-size: 20px;
+              line-height: 30px;
+              font-weight: 400;
+              margin-top: 40px;
+            }
+
+            a {
+              background-color: #322c2c;
+              border-radius: 100px;
+              color: #fef9f4;
+              font-size: 18px;
+              font-weight: 400;
+              padding: 10px 20px;
+              margin-top: 40px;
+              display: flex;
+              width: fit-content;
+              gap: 10px;
+
+              img {
+                width: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+ */

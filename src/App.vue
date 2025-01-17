@@ -1,5 +1,5 @@
 <template>
-  <HomePage msg="Accueil"/>
+  <HomePage />
 </template>
 
 <script>
