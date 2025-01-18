@@ -11,7 +11,7 @@ html {
       .top_block {
         background-image: url("@/assets/img/Pictos/fleur.svg");
         background-size: 30%;
-        background-position: 40% -5%;
+        background-position: 20% 0;
         background-repeat: no-repeat;
         padding: 0 5%;
 
@@ -31,6 +31,11 @@ html {
               color: #322c2c;
               font-weight: 400;
               font-size: 20px;
+              transition: transform .4s;
+            }
+
+            a:hover {
+              transform: scale(1.1);
             }
           }
 
@@ -41,9 +46,14 @@ html {
             gap: 50px;
 
             a {
+              transition: transform .4s;
               img {
                 width: 30px;
               }
+            }
+
+            a:hover {
+              transform: scale(1.2);
             }
           }
         }
@@ -404,10 +414,15 @@ html {
             flex-direction: row;
             align-items: center;
             gap: 10px;
+            transition: transform .4s;
 
             img {
               width: 30px;
             }
+          }
+
+          a:hover {
+            transform: scale(1.1);
           }
         }
       }

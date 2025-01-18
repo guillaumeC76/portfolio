@@ -15,7 +15,7 @@
         </div>
       </header>
 
-      <div class="presentation">
+      <div class="presentation" id="apropos">
         <img class="img_ophelie" src="@/assets/img/photo_header.png" alt="Portrait de Ophélie Dos Santos" />
 
         <div class="text_presentation">
@@ -47,7 +47,7 @@
       </div>
     </div>
 
-    <div class="last_projects">
+    <div class="last_projects" id="projets">
       <h4>Mes derniers projets</h4>
 
       <div class="project peinture_et_nuances">
@@ -81,15 +81,15 @@
         </div>
 
         <div class="project_image">
-          <img class="img1" src="@/assets/img/peinture_et_nuances/mockup_iphone.png"
+          <img data-aos="flip-left" class="img1" src="@/assets/img/peinture_et_nuances/mockup_iphone.png"
             alt="Image d'illustration pour peinture & nuances">
-          <img class="img2" src="@/assets/img/peinture_et_nuances/mockup_posts_instagram.png"
+          <img data-aos="flip-up" class="img2" src="@/assets/img/peinture_et_nuances/mockup_posts_instagram.png"
             alt="Image d'illustration pour peinture & nuances">
-          <img class="img3" src="@/assets/img/peinture_et_nuances/mockup_tablette.png"
+          <img data-aos="flip-right" class="img3" src="@/assets/img/peinture_et_nuances/mockup_tablette.png"
             alt="Image d'illustration pour peinture & nuances">
-          <img class="img4" src="@/assets/img/peinture_et_nuances/post_instagram.png"
+          <img data-aos="fade-right" class="img4" src="@/assets/img/peinture_et_nuances/post_instagram.png"
             alt="Image d'illustration pour peinture & nuances">
-          <img class="img5" src="@/assets/img/peinture_et_nuances/page_qui_sommes_nous.png"
+          <img data-aos="fade-left" class="img5" src="@/assets/img/peinture_et_nuances/page_qui_sommes_nous.png"
             alt="Image d'illustration pour peinture & nuances">
         </div>
       </div>
@@ -120,17 +120,17 @@
 
         <div class="project_image">
           <div class="img_part_1">
-            <img class="img1" src="@/assets/img/Indusrank/palette_de_couleurs.png"
+            <img data-aos="flip-left" class="img1" src="@/assets/img/Indusrank/palette_de_couleurs.png"
               alt="Image d'illustration pour Indusrank">
-            <img class="img2" src="@/assets/img/Indusrank/exemple_post_linkedin.png"
+            <img data-aos="flip-up" class="img2" src="@/assets/img/Indusrank/exemple_post_linkedin.png"
               alt="Image d'illustration pour Indusrank">
-            <img class="img3" src="@/assets/img/Indusrank/mockup_ordinateur.png"
+            <img data-aos="fade-right" class="img3" src="@/assets/img/Indusrank/mockup_ordinateur.png"
               alt="Image d'illustration pour Indusrank">
           </div>
 
           <div class="img_part_2">
-            <img class="img4" src="@/assets/img/Indusrank/mockup_accueil.png" alt="Image d'illustration pour Indusrank">
-            <img class="img5" src="@/assets/img/Indusrank/Composants.png" alt="Image d'illustration pour Indusrank">
+            <img data-aos="flip-right" class="img4" src="@/assets/img/Indusrank/mockup_accueil.png" alt="Image d'illustration pour Indusrank">
+            <img data-aos="fade-left" class="img5" src="@/assets/img/Indusrank/Composants.png" alt="Image d'illustration pour Indusrank">
           </div>
         </div>
       </div>
@@ -161,14 +161,14 @@
 
         <div class="project_image">
           <div class="duo_image">
-            <img class="img1" src="@/assets/img/Salt/mockup_affiche.png" alt="Image d'illustration pour Salt">
-            <img class="img1" src="@/assets/img/Salt/logo.png" alt="Image d'illustration pour Salt">
+            <img data-aos="flip-left" class="img1" src="@/assets/img/Salt/mockup_affiche.png" alt="Image d'illustration pour Salt">
+            <img data-aos="flip-left" class="img1" src="@/assets/img/Salt/logo.png" alt="Image d'illustration pour Salt">
           </div>
 
-          <img class="img2" src="@/assets/img/Salt/pop_up_tarif.png" alt="Image d'illustration pour Salt">
-          <img class="img3" src="@/assets/img/Salt/page_accueil.png" alt="Image d'illustration pour Salt">
-          <img class="img4" src="@/assets/img/Salt/mockup_ordinateur.png" alt="Image d'illustration pour Salt">
-          <img class="img5" src="@/assets/img/Salt/illustration_notification.png" alt="Image d'illustration pour Salt">
+          <img data-aos="flip-up" class="img2" src="@/assets/img/Salt/pop_up_tarif.png" alt="Image d'illustration pour Salt">
+          <img data-aos="flip-right" class="img3" src="@/assets/img/Salt/page_accueil.png" alt="Image d'illustration pour Salt">
+          <img data-aos="fade-right" class="img4" src="@/assets/img/Salt/mockup_ordinateur.png" alt="Image d'illustration pour Salt">
+          <img data-aos="fade-left" class="img5" src="@/assets/img/Salt/illustration_notification.png" alt="Image d'illustration pour Salt">
         </div>
       </div>
 
@@ -197,16 +197,16 @@
 
         <div class="project_image">
           <div class="img_part_1">
-            <img class="img1" src="@/assets/img/Arboricat/mockup_tablette.png"
+            <img data-aos="flip-left" class="img1" src="@/assets/img/Arboricat/mockup_tablette.png"
               alt="Image d'illustration pour Arboricat">
-            <img class="img2" src="@/assets/img/Arboricat/mockup_instagram.png"
+            <img data-aos="fade-right" class="img2" src="@/assets/img/Arboricat/mockup_instagram.png"
               alt="Image d'illustration pour Arboricat">
           </div>
 
           <div class="img_part_2">
-            <img class="img3" src="@/assets/img/Arboricat/palette_de_couleurs.png"
+            <img data-aos="flip-right" class="img3" src="@/assets/img/Arboricat/palette_de_couleurs.png"
               alt="Image d'illustration pour Arboricat">
-            <img class="img4" src="@/assets/img/Arboricat/mockup_ordinateur.png"
+            <img data-aos="fade-left" class="img4" src="@/assets/img/Arboricat/mockup_ordinateur.png"
               alt="Image d'illustration pour Arboricat">
           </div>
         </div>
@@ -218,7 +218,7 @@
         </div>
       </div>
 
-      <footer>
+      <footer id="contact">
         <a href="tel:+33673402457"><img src="@/assets/img/Pictos/telephone_footer.png" alt="Picto téléphone">06 73 40 24
           57</a>
         <a href="mailto:ophelie.dossantos12@gmail.com" target="_blank"><img src="@/assets/img/Pictos/mail_footer.png"
