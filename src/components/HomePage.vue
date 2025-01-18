@@ -9,9 +9,12 @@
         </div>
 
         <div class="social_link">
-          <a href="https://urlr.me/sXHqvx" target="_blank"><img class="linkedin" src="@/assets/img/Pictos/linkedIn.svg" alt="Picto LinkedIn" /></a>
-          <a href="https://urlr.me/PURNsF" target="_blank"><img src="@/assets/img/Pictos/behance.svg" alt="Picto LinkedIn" /></a>
-          <a href="mailto:ophelie.dossantos12@gmail.com"><img src="@/assets/img/Pictos/mail.svg" alt="Picto LinkedIn" /></a>
+          <a href="https://urlr.me/sXHqvx" target="_blank"><img class="linkedin" src="@/assets/img/Pictos/linkedIn.svg"
+              alt="Picto LinkedIn" /></a>
+          <a href="https://urlr.me/PURNsF" target="_blank"><img src="@/assets/img/Pictos/behance.svg"
+              alt="Picto LinkedIn" /></a>
+          <a href="mailto:ophelie.dossantos12@gmail.com"><img src="@/assets/img/Pictos/mail.svg"
+              alt="Picto LinkedIn" /></a>
         </div>
       </header>
 
@@ -92,6 +95,30 @@
           <img data-aos="fade-left" class="img5" src="@/assets/img/peinture_et_nuances/page_qui_sommes_nous.png"
             alt="Image d'illustration pour peinture & nuances">
         </div>
+
+        <Swiper class="swiper-container" :slides-per-view="1" :loop="true" :space-between="10"
+          :autoplay="{ delay: 5000, disableOnInteraction: false }" navigation style="display: none;">
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/peinture_et_nuances/mockup_iphone.png" alt="Image 1">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/peinture_et_nuances/mockup_posts_instagram.png"
+                alt="Image 2"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/peinture_et_nuances/mockup_tablette.png" alt="Image 3">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/peinture_et_nuances/post_instagram.png" alt="Image 3">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/peinture_et_nuances/page_qui_sommes_nous.png"
+                alt="Image 3"></div>
+          </SwiperSlide>
+        </Swiper>
       </div>
 
       <div class="project indusrank">
@@ -129,10 +156,34 @@
           </div>
 
           <div class="img_part_2">
-            <img data-aos="flip-right" class="img4" src="@/assets/img/Indusrank/mockup_accueil.png" alt="Image d'illustration pour Indusrank">
-            <img data-aos="fade-left" class="img5" src="@/assets/img/Indusrank/Composants.png" alt="Image d'illustration pour Indusrank">
+            <img data-aos="flip-right" class="img4" src="@/assets/img/Indusrank/mockup_accueil.png"
+              alt="Image d'illustration pour Indusrank">
+            <img data-aos="fade-left" class="img5" src="@/assets/img/Indusrank/Composants.png"
+              alt="Image d'illustration pour Indusrank">
           </div>
         </div>
+
+        <Swiper class="swiper-container" :slides-per-view="1" :loop="true" :space-between="10"
+          :autoplay="{ delay: 5000, disableOnInteraction: false }" navigation style="display: none;">
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Indusrank/palette_de_couleurs.png" alt="Image 1">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Indusrank/exemple_post_linkedin.png" alt="Image 2"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Indusrank/mockup_ordinateur.png" alt="Image 3">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Indusrank/mockup_accueil.png" alt="Image 3">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Indusrank/Composants.png" alt="Image 3"></div>
+          </SwiperSlide>
+        </Swiper>
       </div>
 
       <div class="project salt">
@@ -161,15 +212,46 @@
 
         <div class="project_image">
           <div class="duo_image">
-            <img data-aos="flip-left" class="img1" src="@/assets/img/Salt/mockup_affiche.png" alt="Image d'illustration pour Salt">
-            <img data-aos="flip-left" class="img1" src="@/assets/img/Salt/logo.png" alt="Image d'illustration pour Salt">
+            <img data-aos="flip-left" class="img1" src="@/assets/img/Salt/mockup_affiche.png"
+              alt="Image d'illustration pour Salt">
+            <img data-aos="flip-left" class="img1" src="@/assets/img/Salt/logo.png"
+              alt="Image d'illustration pour Salt">
           </div>
 
-          <img data-aos="flip-up" class="img2" src="@/assets/img/Salt/pop_up_tarif.png" alt="Image d'illustration pour Salt">
-          <img data-aos="flip-right" class="img3" src="@/assets/img/Salt/page_accueil.png" alt="Image d'illustration pour Salt">
-          <img data-aos="fade-right" class="img4" src="@/assets/img/Salt/mockup_ordinateur.png" alt="Image d'illustration pour Salt">
-          <img data-aos="fade-left" class="img5" src="@/assets/img/Salt/illustration_notification.png" alt="Image d'illustration pour Salt">
+          <img data-aos="flip-up" class="img2" src="@/assets/img/Salt/pop_up_tarif.png"
+            alt="Image d'illustration pour Salt">
+          <img data-aos="flip-right" class="img3" src="@/assets/img/Salt/page_accueil.png"
+            alt="Image d'illustration pour Salt">
+          <img data-aos="fade-right" class="img4" src="@/assets/img/Salt/mockup_ordinateur.png"
+            alt="Image d'illustration pour Salt">
+          <img data-aos="fade-left" class="img5" src="@/assets/img/Salt/illustration_notification.png"
+            alt="Image d'illustration pour Salt">
         </div>
+
+        <Swiper class="swiper-container" :slides-per-view="1" :loop="true" :space-between="10"
+          :autoplay="{ delay: 5000, disableOnInteraction: false }" navigation style="display: none;">
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Salt/mockup_affiche.png" alt="Image 1">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Salt/logo.png" alt="Image 2"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Salt/pop_up_tarif.png" alt="Image 3">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Salt/page_accueil.png" alt="Image 3">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Salt/mockup_ordinateur.png" alt="Image 3"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Salt/illustration_notification.png" alt="Image 3"></div>
+          </SwiperSlide>
+        </Swiper>
       </div>
 
       <div class="project arboricat">
@@ -210,6 +292,25 @@
               alt="Image d'illustration pour Arboricat">
           </div>
         </div>
+
+        <Swiper class="swiper-container" :slides-per-view="1" :loop="true" :space-between="10"
+          :autoplay="{ delay: 5000, disableOnInteraction: false }" navigation style="display: none;">
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Arboricat/mockup_tablette.png" alt="Image 1">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Arboricat/mockup_instagram.png" alt="Image 2"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Arboricat/palette_de_couleurs.png" alt="Image 3">
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content"><img src="@/assets/img/Arboricat/mockup_ordinateur.png" alt="Image 3">
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
 
       <div class="pre_footer">
@@ -233,7 +334,14 @@
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import 'swiper/swiper-bundle.css';
+
 export default {
   name: "HomePage",
+  components: {
+    Swiper,
+    SwiperSlide
+  },
 };
 </script>
