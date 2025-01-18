@@ -1,6 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-5.0 -10.0 110.0 135.0">
- <path d="m63.57 53.199-5.5742 5.5742c-4.418 4.4141-11.578 4.4141-15.996 0l-5.5742-5.5742-30.066 30.066c0.90625 0.43359 1.9023 0.66406 2.9258 0.66406h81.43c1.0234 0 2.0195-0.23047 2.9258-0.66406z" fill-rule="evenodd"/>
- <path d="m66.77 50 30.066 30.066c0.43359-0.90234 0.66406-1.9023 0.66406-2.9219v-54.285c0-1.0234-0.23047-2.0195-0.66406-2.9258z" fill-rule="evenodd"/>
- <path d="m33.23 50-30.066-30.066c-0.43359 0.90625-0.66406 1.9023-0.66406 2.9258v54.285c0 1.0234 0.23047 2.0195 0.66406 2.9258z" fill-rule="evenodd"/>
- <path d="m93.641 16.734c-0.90625-0.43359-1.9023-0.66406-2.9258-0.66406h-81.43c-1.0234 0-2.0195 0.23047-2.9258 0.66406l38.84 38.84c2.6484 2.6523 6.9453 2.6523 9.5938 0z" fill-rule="evenodd"/>
-<text x="0.0" y="117.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#000000">Created by karl</text><text x="0.0" y="122.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#322c2c">from Noun Project</text></svg>
+<svg width="30" height="22" viewBox="0 0 30 22" fill="#322C2C" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_256_26" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="30" height="22">
+<rect width="30" height="22" fill="#322C2C"/>
+</mask>
+<g mask="url(#mask0_256_26)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.2406 11.4878L17.4986 13.2092C16.118 14.5724 13.8805 14.5724 12.4999 13.2092L10.7579 11.4878L1.3623 20.7729C1.64551 20.9068 1.95677 20.978 2.27662 20.978H27.7235C28.0433 20.978 28.3546 20.9068 28.6378 20.7729L19.2406 11.4878Z" fill="#322C2C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2407 10.4999L29.6363 19.785C29.7718 19.5063 29.8439 19.1975 29.8439 18.8826V2.11813C29.8439 1.80208 29.7718 1.49446 29.6363 1.21457L20.2407 10.4999Z" fill="#322C2C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.75939 10.4999L0.363769 1.21478C0.228272 1.49465 0.15625 1.80226 0.15625 2.11834V18.8828C0.15625 19.1989 0.228272 19.5065 0.363769 19.7864L9.75939 10.4999Z" fill="#322C2C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.6378 0.226561C28.3546 0.0926585 28.0433 0.0214844 27.7235 0.0214844H2.27662C1.9568 0.0214844 1.64552 0.0926585 1.3623 0.226561L13.4998 12.2213C14.3274 13.0404 15.6702 13.0404 16.4979 12.2213L28.6378 0.226561Z" fill="#322C2C"/>
+</g>
+</svg>
