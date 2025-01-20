@@ -1,120 +1,126 @@
 @media screen and (max-width: 1700px) {
-    .project .project_text .text_without_footer {
-        margin-top: 30px !important;
-    }
+  .project .project_text .text_without_footer {
+    margin-top: 30px !important;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-    h1 {
-        font-size: 100px !important;
-    }
+  h1 {
+    font-size: 100px !important;
+  }
 
-    h3 {
-        font-size: 20px !important;
-        text-align: right !important;
-        margin-right: 5%;
-    }
+  h3 {
+    font-size: 20px !important;
+    text-align: right !important;
+    margin-right: 5%;
+  }
 
-    .presentation {
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 50px !important;
-    }
+  .presentation {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 50px !important;
+  }
 
-    .project {
-        flex-direction: column !important;
-        align-items: center !important;
-        width: 80%;
-    }
+  .project {
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 80%;
+  }
 
-    .text_without_footer {
-        margin-top: 10px !important;
-    }
+  .text_without_footer {
+    margin-top: 10px !important;
+  }
 
-    .project .project_text {
-        align-self: initial !important;
-        gap: 30px;
-        width: 80% !important;
-    }
+  .project .project_text {
+    align-self: initial !important;
+    gap: 30px;
+    width: 80% !important;
+  }
 
-    .project .project_image {
-        width: 90% !important;
-        margin-top: 30px !important;
-    }
+  .project .project_image {
+    width: 90% !important;
+    margin-top: 30px !important;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .top_block {
-        padding: 0 !important;
-    }
+  .top_block {
+    padding: 0 !important;
+  }
 
-    .anchor_link {
-        display: none !important;
-    }
+  .anchor_link {
+    display: none !important;
+  }
 
-    header {
-        justify-content: center !important;
-    }
+  header {
+    justify-content: center !important;
+  }
 
-    header .social_link a img {
-        width: 50px !important;
-    }
+  header .social_link a img {
+    width: 50px !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .filter_presentation {
-        flex-direction: column !important;
-        gap: 10px !important;
-    }
+  .filter_presentation {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
 
-    .top_block .presentation .text_presentation {
-        width: 80% !important;
-        display: flex;
-        flex-direction: column;
-        align-items: center !important;
-    }
+  .top_block .presentation .text_presentation {
+    width: 80% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
 
-    /**********ICI DISPLAY BLOCK DU CAROUSEL*************/
+  /**********ICI DISPLAY BLOCK DU CAROUSEL*************/
 
-    .project_image {
-        display: none !important;
-    }
+  .project_image {
+    display: none !important;
+  }
 
-    .swiper {
-        display: block !important;
-    }
+  .swiper {
+    display: block !important;
+    max-height: fit-content !important; /* Adapte cette valeur */
+    overflow: hidden !important;
+  }
+  .swiper img {
+    max-height: 100% !important; /* Les images ne dépassent pas */
+    object-fit: cover !important; /* Adapte les images à l'espace */
+  }
 }
 
 @media screen and (max-width: 600px) {
-    h1 {
-        font-size: 80px !important;
-    }
+  h1 {
+    font-size: 80px !important;
+  }
 
-    h2 {
-        font-size: 40px !important;
-    }
+  h2 {
+    font-size: 40px !important;
+  }
 
-    h3 {
-        margin-top: 30px !important;
-    }
+  h3 {
+    margin-top: 30px !important;
+  }
 
-    .project .project_text .text_without_footer h5 {
-        font-size: 24px !important;
-    }
+  .project .project_text .text_without_footer h5 {
+    font-size: 24px !important;
+  }
 
-    .home .last_projects h4 {
-        font-size: 30px !important;
-    }
+  .home .last_projects h4 {
+    font-size: 30px !important;
+  }
 
-    .last_projects footer {
-        gap: 15px !important;
-    }
+  .last_projects footer {
+    gap: 15px !important;
+  }
 
-    .last_projects footer a {
-        font-size: 14px !important;
-    }
+  .last_projects footer a {
+    font-size: 14px !important;
+  }
 
-    .last_projects footer a img {
-        width: 24px !important;
-    }
+  .last_projects footer a img {
+    width: 24px !important;
+  }
 }
