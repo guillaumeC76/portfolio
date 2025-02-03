@@ -54,7 +54,7 @@
             ou une mission qui mérite un coup de boost, faites-moi signe !
           </p>
 
-          <a class="cta" href=""
+          <a class="cta" href="https://ophelie.colombel.net/img/CV.pdf" target="_blank"
             >Jetez un œil à mon CV
             <img src="@/assets/img/Pictos/fleche.svg" alt="Icone de flèche"
           /></a>
